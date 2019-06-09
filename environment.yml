@@ -1,6 +1,8 @@
 name: d2notebooks
 dependencies:
-    - python
-    - numpy
-    - pip:
-        - pydiablo
+  - python>=3.6
+  - numpy>=1.15
+  - jupyter
+  - pip
+  - pip:
+    - pydiablo
